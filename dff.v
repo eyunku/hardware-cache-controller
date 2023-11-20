@@ -47,4 +47,4 @@ module dff_16bit (q, d, wen, clk, rst);
     dff b13 (.q(q[13]),  .d(d[13]),  .wen(wen), .clk(clk), .rst(rst));
     dff b14 (.q(q[14]),  .d(d[14]),  .wen(wen), .clk(clk), .rst(rst));
     dff b15 (.q(q[15]),  .d(d[15]),  .wen(wen), .clk(clk), .rst(rst));
-  endmodule
+endmodule
